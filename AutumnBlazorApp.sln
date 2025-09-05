@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36414.22 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutumnBlazorApp", "AutumnBlazorApp\AutumnBlazorApp.csproj", "{43E63BD5-5386-4216-9CAD-14E92D168FC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutumnBlazorApp.Client", "AutumnBlazorApp.Client\AutumnBlazorApp.Client.csproj", "{7727D834-1176-43D0-8C26-1346367B4607}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutumnBlazorApp.Domain", "AutumnBlazorApp.Domain\AutumnBlazorApp.Domain.csproj", "{7AF7404F-5E21-475F-B0AF-7C82A2945C2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutumnBlazorApp.Shared", "AutumnBlazorApp.Shared\AutumnBlazorApp.Shared.csproj", "{27049396-FDE0-4C6A-9532-5B09B69900A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutumnBlazorApp.Infrastructure", "AutumnBlazorApp.Infrastructure\AutumnBlazorApp.Infrastructure.csproj", "{8C5BB74D-04C8-4501-8A96-516483032305}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutumnBlazorApp.Application", "AutumnBlazorApp.Application\AutumnBlazorApp.Application.csproj", "{64A729AC-4ADB-4D0E-B2C8-BCC78E3E676A}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{81DDED9D-158B-E303-5F62-77A2896D2A5A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{43E63BD5-5386-4216-9CAD-14E92D168FC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43E63BD5-5386-4216-9CAD-14E92D168FC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43E63BD5-5386-4216-9CAD-14E92D168FC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43E63BD5-5386-4216-9CAD-14E92D168FC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7727D834-1176-43D0-8C26-1346367B4607}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7727D834-1176-43D0-8C26-1346367B4607}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7727D834-1176-43D0-8C26-1346367B4607}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7727D834-1176-43D0-8C26-1346367B4607}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AF7404F-5E21-475F-B0AF-7C82A2945C2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AF7404F-5E21-475F-B0AF-7C82A2945C2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AF7404F-5E21-475F-B0AF-7C82A2945C2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AF7404F-5E21-475F-B0AF-7C82A2945C2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27049396-FDE0-4C6A-9532-5B09B69900A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27049396-FDE0-4C6A-9532-5B09B69900A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27049396-FDE0-4C6A-9532-5B09B69900A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27049396-FDE0-4C6A-9532-5B09B69900A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C5BB74D-04C8-4501-8A96-516483032305}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C5BB74D-04C8-4501-8A96-516483032305}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C5BB74D-04C8-4501-8A96-516483032305}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C5BB74D-04C8-4501-8A96-516483032305}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64A729AC-4ADB-4D0E-B2C8-BCC78E3E676A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64A729AC-4ADB-4D0E-B2C8-BCC78E3E676A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64A729AC-4ADB-4D0E-B2C8-BCC78E3E676A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64A729AC-4ADB-4D0E-B2C8-BCC78E3E676A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81DDED9D-158B-E303-5F62-77A2896D2A5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81DDED9D-158B-E303-5F62-77A2896D2A5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81DDED9D-158B-E303-5F62-77A2896D2A5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81DDED9D-158B-E303-5F62-77A2896D2A5A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7BF05812-220E-40C1-80D5-092DC9CA3E13}
+	EndGlobalSection
+EndGlobal

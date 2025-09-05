@@ -1,0 +1,6 @@
+services:
+  autumnblazorapp:
+    image: ${DOCKER_REGISTRY-}autumnblazorapp
+    build:
+      context: .
+      dockerfile: AutumnBlazorApp/Dockerfile
