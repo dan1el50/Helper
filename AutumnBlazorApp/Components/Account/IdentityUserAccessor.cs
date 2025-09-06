@@ -1,4 +1,4 @@
-using AutumnBlazorApp.Data;
+using AutumnBlazorApp.Domain;
 using Microsoft.AspNetCore.Identity;
 
 namespace AutumnBlazorApp.Components.Account

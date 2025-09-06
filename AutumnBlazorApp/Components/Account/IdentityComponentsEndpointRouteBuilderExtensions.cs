@@ -2,7 +2,7 @@ using System.Security.Claims;
 using System.Text.Json;
 using AutumnBlazorApp.Components.Account.Pages;
 using AutumnBlazorApp.Components.Account.Pages.Manage;
-using AutumnBlazorApp.Data;
+using AutumnBlazorApp.Domain;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.AspNetCore.Http.Extensions;
