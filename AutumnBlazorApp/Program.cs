@@ -31,6 +31,9 @@ builder.Services.AddAuthentication(options =>
 })
     .AddIdentityCookies();
 
+// Add this line right here
+builder.Services.AddAuthorization();
+
 // This configures Identity to use our ApplicationUser and ApplicationDbContext
 builder.Services.AddIdentityCore<ApplicationUser>(options => options.SignIn.RequireConfirmedAccount = true)
     .AddEntityFrameworkStores<ApplicationDbContext>() // This links Identity to our DbContext
