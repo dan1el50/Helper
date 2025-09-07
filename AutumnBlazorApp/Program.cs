@@ -34,6 +34,9 @@ builder.Services.AddAuthentication(options =>
 // Add this line right here
 builder.Services.AddAuthorization();
 
+// This line scans the Application assembly for MediatR handlers
+builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(AutumnBlazorApp.Application.IApplicationMarker).Assembly));
+
 // This configures Identity to use our ApplicationUser and ApplicationDbContext
 builder.Services.AddIdentityCore<ApplicationUser>(options => options.SignIn.RequireConfirmedAccount = true)
     .AddEntityFrameworkStores<ApplicationDbContext>() // This links Identity to our DbContext
@@ -41,6 +44,8 @@ builder.Services.AddIdentityCore<ApplicationUser>(options => options.SignIn.Requ
     .AddDefaultTokenProviders();
 
 builder.Services.AddSingleton<IEmailSender<ApplicationUser>, IdentityNoOpEmailSender>();
+
+builder.Services.AddControllers();
 
 var app = builder.Build();
 
@@ -66,5 +71,6 @@ app.MapRazorComponents<App>()
 
 // Add additional endpoints required by the Identity /Account Razor components.
 app.MapAdditionalIdentityEndpoints();
+app.MapControllers();
 
 app.Run();

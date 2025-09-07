@@ -11,6 +11,7 @@ namespace AutumnBlazorApp.Infrastructure.Data
         {
         }
 
+        public DbSet<Human> Humans { get; set; }
         // You will add your DbSets for business entities here later, for example:
         // public DbSet<Employee> Employees { get; set; }
         // public DbSet<Department> Departments { get; set; }

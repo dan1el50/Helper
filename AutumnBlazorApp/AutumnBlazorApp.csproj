@@ -10,9 +10,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="MediatR" Version="13.0.0" />
+    <ProjectReference Include="..\AutumnBlazorApp.Application\AutumnBlazorApp.Application.csproj" />
     <ProjectReference Include="..\AutumnBlazorApp.Client\AutumnBlazorApp.Client.csproj" />
     <ProjectReference Include="..\AutumnBlazorApp.Domain\AutumnBlazorApp.Domain.csproj" />
     <ProjectReference Include="..\AutumnBlazorApp.Infrastructure\AutumnBlazorApp.Infrastructure.csproj" />
+    <ProjectReference Include="..\AutumnBlazorApp.Shared\AutumnBlazorApp.Shared.csproj" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="9.0.8" />
     <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="9.0.8" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="9.0.8" />
